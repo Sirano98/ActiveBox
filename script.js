@@ -22,9 +22,15 @@ $(function () {
         event.preventDefault();
         let elementId = $(this).data("scroll");
         let elementOffset = $(elementId).offset().top;
-
+        nav.removeClass("show");
         $("html").animate({
             scrollTop: elementOffset - 70
         }, 700);
     });
+
+    /* NavToggle */
+    let nav = $("#nav");
+    $("#navToggle").on("click", function (event) {
+        nav.toggleClass("show");
+    })
 });

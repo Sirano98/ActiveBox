@@ -515,6 +515,21 @@ body {
 
     .nav {
         display: none;
+        width: 100%;
+        flex-direction: column;
+        background-color: #31344e;
+        text-align: right;
+        position: absolute;
+        top: 100%;
+        right: 0;
+    }
+
+    .nav__link {
+        padding: 9px 15px;
+    }
+
+    .nav.show {
+        display: flex;
     }
 
     .burger {
