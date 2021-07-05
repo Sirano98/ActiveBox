@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <title>ActiveBox</title>
 </head>
@@ -380,17 +381,34 @@
     <!-- Reviews -->
     <div class="reviews" id="reviews">
         <div class="container">
-            <div class="reviews__item">
-                <div class="reviews__photo">
-                    <img class="reviews__img" src="img/review.png" alt="review's photo">
-                </div>
-                <div class="reviews__content">
-                    <div class="reviews__text">
-                        “Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Aenean
-                        eu leo quam...”
+            <div id="reviews__slider">
+                <div class="reviews__item">
+                    <div class="reviews__photo">
+                        <img class="reviews__img" src="img/review.png" alt="review's photo">
                     </div>
-                    <div class="reviews__author">
-                        Susan Sims, Interaction Designer at XYZ
+                    <div class="reviews__content">
+                        <div class="reviews__text">
+                            “Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui.
+                            Aenean
+                            eu leo quam...”
+                        </div>
+                        <div class="reviews__author">
+                            Susan Sims, Interaction Designer at XYZ
+                        </div>
+                    </div>
+                </div>
+                <div class="reviews__item">
+                    <div class="reviews__photo">
+                        <img class="reviews__img" src="img/review.png" alt="review's photo">
+                    </div>
+                    <div class="reviews__content">
+                        <div class="reviews__text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta quo corporis sed minima,
+                            ratione optio
+                        </div>
+                        <div class="reviews__author">
+                            Susan Sims, Interaction Designer at XYZ
+                        </div>
                     </div>
                 </div>
             </div>
@@ -463,6 +481,7 @@
             </div>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="script.js"></script>
 </body>
 

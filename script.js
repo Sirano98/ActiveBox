@@ -32,5 +32,16 @@ $(function () {
     let nav = $("#nav");
     $("#navToggle").on("click", function (event) {
         nav.toggleClass("show");
-    })
+    });
+
+    /* Slider */
+    let slider = $("#reviews__slider");
+    slider.slick({
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        autoplay: true,
+        autoplaySpeed: 3000
+    });
 });

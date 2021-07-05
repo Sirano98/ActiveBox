@@ -383,7 +383,7 @@ body {
 }
 
 .reviews__item {
-    display: flex;
+    display: flex !important;
     flex-wrap: wrap;
 }
 
@@ -391,6 +391,7 @@ body {
     width: 50%;
     height: 500px;
     position: relative;
+    overflow: hidden;
 }
 
 .reviews__img {
